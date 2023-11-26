@@ -161,14 +161,6 @@ h2 {
 		min-height: 60rem;
 	}
 
-	@media screen and (max-width: 480px) {
-
-        .main.fullscreen {
-			min-height: 40rem;
-		}
-
-    }
-
 
 	/* Button */
 
