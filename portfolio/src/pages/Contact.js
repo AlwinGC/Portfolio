@@ -2,10 +2,10 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <section id="contact" className="main style3">
+        <section id="contact" className="main style4">
 			<div className="content">
 				<header>
-					<h2>Get in Touch  <i class="fab fa-telegram-plane fa-1x"></i></h2>
+					<h2>Get in Touch  <i className="fab fa-telegram-plane fa-1x"></i></h2>
 				</header>
 				<div className="box">
 					<form method="post" action="#">

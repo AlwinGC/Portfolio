@@ -3,12 +3,12 @@ import './Header.css';
 function Header() {
     return (
         <header id="header">
-            <h1>ALWIN</h1>
+            <h1>ALWIN CHRISTIE</h1>
             <nav>
                 <ul>
-                    <li><a href="#intro">INTRO</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#projects">MY WORK</a></li>
+                    <li><a href="#projects">WORK</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
