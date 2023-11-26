@@ -1,0 +1,163 @@
+/* Contact */
+
+#contact {
+    overflow: hidden;
+}
+
+    #contact .box {
+        position: relative;
+        padding: 2em 2em 2em 2em;
+        background: #f5f6f7;
+        border-radius: 10px;
+    }
+
+
+    @media screen and (max-width: 736px) {
+
+        #contact .box {
+            padding: 1.5em 1.5em 2em 1.5em;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #contact .box {
+            padding: 1em 1em 2em 1em;
+        }
+
+    }
+
+.main.style3 {
+    text-align: center;
+    padding: 6em 0 6em 0;
+}
+
+    .main.style3 .content > header {
+        margin-bottom: 2em;
+    }
+
+/* Form */
+
+form {
+    margin: 0;
+}
+
+    form > :last-child {
+        margin-bottom: 0;
+    }
+
+    form > .fields {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% + 3em);
+        margin: -1.5em 0 2em -1.5em;
+    }
+
+        form > .fields > .field {
+            flex-grow: 0;
+            flex-shrink: 0;
+            padding: 1.5em 0 0 1.5em;
+            width: calc(100% - 1.5em);
+        }
+
+            form > .fields > .field.half {
+                width: calc(50% - 0.75em);
+            }
+
+            form > .fields > .field.third {
+                width: calc(100%/3 - 0.5em);
+            }
+
+            form > .fields > .field.quarter {
+                width: calc(25% - 0.375em);
+            }
+
+    @media screen and (max-width: 480px) {
+
+        form > .fields {
+            width: calc(100% + 2em);
+            margin: -1em 0 2em -1em;
+        }
+
+            form > .fields > .field {
+                padding: 1em 0 0 1em;
+                width: calc(100% - 1em);
+            }
+
+                form > .fields > .field.half {
+                    width: calc(100% - 1em);
+                }
+
+                form > .fields > .field.third {
+                    width: calc(100% - 1em);
+                }
+
+                form > .fields > .field.quarter {
+                    width: calc(100% - 1em);
+                }
+
+    }
+
+    input[type="text"],
+	input[type="email"],
+	textarea {
+		appearance: none;
+		color: #39454b;
+		display: block;
+		width: 100%;
+		padding: 0.65em 0.75em;
+		background: none;
+		border: solid 2px #e5e6e7;
+		color: inherit;
+		border-radius: 0.5em;
+		outline: none;
+	}
+
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		textarea:focus {
+			border-color: #9ac8e9;
+		}
+
+	input[type="text"],
+	input[type="email"]{
+		line-height: 1.35em;
+	}
+
+	textarea {
+		min-height: 8em;
+	}
+
+/* Actions */
+
+ul.actions {
+    display: flex;
+    cursor: default;
+    list-style: none;
+    margin-left: -1em;
+    padding-left: 0;
+}
+
+    ul.actions li {
+        padding: 0 0 0 1em;
+        vertical-align: middle;
+    }
+
+    ul.actions.special {
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+        ul.actions.special li:first-child {
+            padding-left: 0;
+        }
+
+    
+
+    
+
+    
+
+

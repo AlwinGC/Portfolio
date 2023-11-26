@@ -1,0 +1,31 @@
+#intro {
+    background: url("../assets/images/intro.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main.style1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3em 0 3em 0;
+    background-blend-mode: normal;
+}
+
+    .main.style1 h2 {
+        font-size: 4.25em;
+        line-height: 1em;
+    }
+
+    .main.style1 p {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    .main.style1 > .content {
+        margin: 0;
+        color: #ffffff;
+        backdrop-filter: blur(1px);
+    }
