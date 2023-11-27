@@ -112,6 +112,7 @@ form {
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
+        resize: none;
 	}
 
 		input[type="text"]:focus,
